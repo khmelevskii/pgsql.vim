@@ -165,7 +165,7 @@ syn region pgsqlFlow		 start="if("	   end=")"  contains=ALL
 " General Functions
 "
 " syn region pgsqlFunction		start="abbrev'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="abs'(" end=")" contains=ALL
+syn region pgsqlFunction		start="abs'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="abstime'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="abstimeeq'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="abstimege'(" end=")" contains=ALL
@@ -204,10 +204,10 @@ syn region pgsqlFlow		 start="if("	   end=")"  contains=ALL
 " syn region pgsqlFunction		start="area'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="areajoinsel'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="areasel'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="array_agg'(" end=")" contains=ALL
+syn region pgsqlFunction		start="array_agg'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="array_agg_finalfn'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="array_agg_transfn'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="array_append'(" end=")" contains=ALL
+syn region pgsqlFunction		start="array_append'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="array_cat'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="arraycontained'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="arraycontains'(" end=")" contains=ALL
@@ -425,16 +425,16 @@ syn region pgsqlFlow		 start="if("	   end=")"  contains=ALL
 " syn region pgsqlFunction		start="cash_words'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="cbrt'(" end=")" contains=ALL
 syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="ceiling'(" end=")" contains=ALL
+syn region pgsqlFunction		start="ceiling'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="center'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="character_length'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="char'(" end=")" contains=ALL
+syn region pgsqlFunction		start="character_length'(" end=")" contains=ALL
+syn region pgsqlFunction		start="char'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="chareq'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="charge'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="chargt'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="charin'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="charle'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="char_length'(" end=")" contains=ALL
+syn region pgsqlFunction		start="char_length'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="charlt'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="charne'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="charout'(" end=")" contains=ALL
@@ -492,16 +492,17 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="close_sl'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="col_description'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="contained_by'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="contains'(" end=")" contains=ALL
+syn region pgsqlFunction		start="contains'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="contjoinsel'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="contsel'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="convert'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="convert_from'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="convert_to'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="corr'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="cos'(" end=")" contains=ALL
+syn region pgsqlFunction		start="cos'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="cot'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="count'(" end=")" contains=ALL
+syn region pgsqlFunction		start="count'(" end=")" contains=ALL
+syn region pgsqlFunction		start="concat'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="covar_pop'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="covar_samp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="cstring_in'(" end=")" contains=ALL
@@ -517,7 +518,7 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="current_user'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="currtid2'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="currtid'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="currval'(" end=")" contains=ALL
+syn region pgsqlFunction		start="currval'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="cursor_to_xml'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="cursor_to_xmlschema'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="database_to_xml_and_xmlschema'(" end=")" contains=ALL
@@ -526,7 +527,7 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="date_cmp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="date_cmp_timestamp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="date_cmp_timestamptz'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="date'(" end=")" contains=ALL
+syn region pgsqlFunction		start="date'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="date_eq'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="date_eq_timestamp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="date_eq_timestamptz'(" end=")" contains=ALL
@@ -626,11 +627,11 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="euc_tw_to_big5'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="euc_tw_to_mic'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="euc_tw_to_utf8'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="every'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="exp'(" end=")" contains=ALL
+syn region pgsqlFunction		start="every'(" end=")" contains=ALL
+syn region pgsqlFunction		start="exp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="factorial'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="family'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="first'(" end=")" contains=ALL
+syn region pgsqlFunction		start="first'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="first_value'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="float48div'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="float48eq'(" end=")" contains=ALL
@@ -838,7 +839,7 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="has_server_privilege'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="has_table_privilege'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="has_tablespace_privilege'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="height'(" end=")" contains=ALL
+syn region pgsqlFunction		start="height'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="host'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="hostmask'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="iclikejoinsel'(" end=")" contains=ALL
@@ -1037,7 +1038,7 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="interval_avg'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="interval_cmp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="interval_div'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="interval'(" end=")" contains=ALL
+syn region pgsqlFunction		start="interval'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="interval_eq'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="interval_ge'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="interval_gt'(" end=")" contains=ALL
@@ -1063,8 +1064,8 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="intervaltypmodout'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="interval_um'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="intinterval'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="isclosed'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="is_empty'(" end=")" contains=ALL
+syn region pgsqlFunction		start="isclosed'(" end=")" contains=ALL
+syn region pgsqlFunction		start="is_empty'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="isfinite'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="ishorizontal'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="iso8859_1_to_utf8'(" end=")" contains=ALL
@@ -1087,21 +1088,21 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="koi8r_to_win1251'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="koi8r_to_win866'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="koi8u_to_utf8'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="lag'(" end=")" contains=ALL
+syn region pgsqlFunction		start="lag'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="language_handler_in'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="language_handler_out'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="last'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="lastval'(" end=")" contains=ALL
+syn region pgsqlFunction		start="last'(" end=")" contains=ALL
+syn region pgsqlFunction		start="lastval'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="last_value'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="latin1_to_mic'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="latin2_to_mic'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="latin2_to_win1250'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="latin3_to_mic'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="latin4_to_mic'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="lead'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="length'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="like'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="like_escape'(" end=")" contains=ALL
+syn region pgsqlFunction		start="lead'(" end=")" contains=ALL
+syn region pgsqlFunction		start="length'(" end=")" contains=ALL
+syn region pgsqlFunction		start="like'(" end=")" contains=ALL
+syn region pgsqlFunction		start="like_escape'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="likejoinsel'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="likesel'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="line_distance'(" end=")" contains=ALL
@@ -1122,7 +1123,7 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lo_create'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lo_creat'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lo_export'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="log'(" end=")" contains=ALL
+syn region pgsqlFunction		start="log'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lo_import'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lo_lseek'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lo_open'(" end=")" contains=ALL
@@ -1130,7 +1131,7 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lo_tell'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lo_truncate'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lo_unlink'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="lower'(" end=")" contains=ALL
+syn region pgsqlFunction		start="lower'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lowrite'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lpad'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lseg_center'(" end=")" contains=ALL
@@ -1153,7 +1154,7 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lseg_recv'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lseg_send'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="lseg_vertical'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="ltrim'(" end=")" contains=ALL
+syn region pgsqlFunction		start="ltrim'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="macaddr_cmp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="macaddr_eq'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="macaddr_ge'(" end=")" contains=ALL
@@ -1167,8 +1168,8 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="macaddr_send'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="makeaclitem'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="masklen'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="max'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="md5'(" end=")" contains=ALL
+syn region pgsqlFunction		start="max'(" end=")" contains=ALL
+syn region pgsqlFunction		start="md5'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="mic_to_ascii'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="mic_to_big5'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="mic_to_euc_cn'(" end=")" contains=ALL
@@ -1225,13 +1226,13 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="network_subeq'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="network_sup'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="network_supeq'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="next'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="nextval'(" end=")" contains=ALL
+syn region pgsqlFunction		start="next'(" end=")" contains=ALL
+syn region pgsqlFunction		start="nextval'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="ninetyfive'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="nlikejoinsel'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="nlikesel'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="notlike'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="now'(" end=")" contains=ALL
+syn region pgsqlFunction		start="notlike'(" end=")" contains=ALL
+syn region pgsqlFunction		start="now'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="npoints'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="nth_value'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="ntile'(" end=")" contains=ALL
@@ -1528,9 +1529,9 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="positionjoinsel'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="positionsel'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="postgresql_fdw_validator'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="pow'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="power'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="prior'(" end=")" contains=ALL
+syn region pgsqlFunction		start="pow'(" end=")" contains=ALL
+syn region pgsqlFunction		start="power'(" end=")" contains=ALL
+syn region pgsqlFunction		start="prior'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="prsd_end'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="prsd_headline'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="prsd_lextype'(" end=")" contains=ALL
@@ -1609,7 +1610,7 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="regtypeout'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="regtyperecv'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="regtypesend'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="reltime'(" end=")" contains=ALL
+syn region pgsqlFunction		start="reltime'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="reltimeeq'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="reltimege'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="reltimegt'(" end=")" contains=ALL
@@ -1634,10 +1635,10 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="RI_FKey_setdefault_upd'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="RI_FKey_setnull_del'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="RI_FKey_setnull_upd'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="round'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="row_number'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="rpad'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="rtrim'(" end=")" contains=ALL
+syn region pgsqlFunction		start="round'(" end=")" contains=ALL
+syn region pgsqlFunction		start="row_number'(" end=")" contains=ALL
+syn region pgsqlFunction		start="rpad'(" end=")" contains=ALL
+syn region pgsqlFunction		start="rtrim'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="scalargtjoinsel'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="scalargtsel'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="scalarltjoinsel'(" end=")" contains=ALL
@@ -1658,9 +1659,9 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="shift_jis_2004_to_euc_jis_2004'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="shift_jis_2004_to_utf8'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="shobj_description'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="sign'(" end=")" contains=ALL
+syn region pgsqlFunction		start="sign'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="similar_escape'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="sin'(" end=")" contains=ALL
+syn region pgsqlFunction		start="sin'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="sjis_to_euc_jp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="sjis_to_mic'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="sjis_to_utf8'(" end=")" contains=ALL
@@ -1680,20 +1681,20 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="string_agg_finalfn'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="string_agg_transfn'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="string_to_array'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="strip'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="strpos'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="substr'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="substring'(" end=")" contains=ALL
+syn region pgsqlFunction		start="strip'(" end=")" contains=ALL
+syn region pgsqlFunction		start="strpos'(" end=")" contains=ALL
+syn region pgsqlFunction		start="substr'(" end=")" contains=ALL
+syn region pgsqlFunction		start="substring'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="sudoku'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="sum'(" end=")" contains=ALL
+syn region pgsqlFunction		start="sum'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="suppress_redundant_updates_trigger'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="table_to_xml_and_xmlschema'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="table_to_xml'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="table_to_xmlschema'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="tan'(" end=")" contains=ALL
+syn region pgsqlFunction		start="tan'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="textanycat'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="textcat'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="text'(" end=")" contains=ALL
+syn region pgsqlFunction		start="textcat'(" end=")" contains=ALL
+syn region pgsqlFunction		start="text'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="texteq'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="text_ge'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="text_gt'(" end=")" contains=ALL
@@ -1704,8 +1705,8 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="textin'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="text_larger'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="text_le'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="textlen'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="textlike'(" end=")" contains=ALL
+syn region pgsqlFunction		start="textlen'(" end=")" contains=ALL
+syn region pgsqlFunction		start="textlike'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="text_lt'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="textne'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="textnlike'(" end=")" contains=ALL
@@ -1735,7 +1736,7 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="tidsmaller'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="time_cmp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="timedate_pl'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="time'(" end=")" contains=ALL
+syn region pgsqlFunction		start="time'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="time_eq'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="time_ge'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="time_gt'(" end=")" contains=ALL
@@ -1759,7 +1760,7 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="timestamp_cmp_date'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="timestamp_cmp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="timestamp_cmp_timestamptz'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="timestamp'(" end=")" contains=ALL
+syn region pgsqlFunction		start="timestamp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="timestamp_eq_date'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="timestamp_eq'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="timestamp_eq_timestamptz'(" end=")" contains=ALL
@@ -1869,19 +1870,19 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="tintervalsame'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="tintervalsend'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="tintervalstart'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="to_ascii'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="to_char'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="to_date'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="to_hex'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="to_number'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="to_timestamp'(" end=")" contains=ALL
+syn region pgsqlFunction		start="to_ascii'(" end=")" contains=ALL
+syn region pgsqlFunction		start="to_char'(" end=")" contains=ALL
+syn region pgsqlFunction		start="to_date'(" end=")" contains=ALL
+syn region pgsqlFunction		start="to_hex'(" end=")" contains=ALL
+syn region pgsqlFunction		start="to_number'(" end=")" contains=ALL
+syn region pgsqlFunction		start="to_timestamp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="to_tsquery'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="to_tsvector'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="transaction_timestamp'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="translate'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="trigger_in'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="trigger_out'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="trunc'(" end=")" contains=ALL
+syn region pgsqlFunction		start="trunc'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="ts_debug'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="ts_headline'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="ts_lexize'(" end=")" contains=ALL
@@ -1945,7 +1946,7 @@ syn region pgsqlFunction		start="ceil'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="unknownrecv'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="unknownsend'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="unnest'(" end=")" contains=ALL
-" syn region pgsqlFunction		start="upper'(" end=")" contains=ALL
+syn region pgsqlFunction		start="upper'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="utf8_to_ascii'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="utf8_to_big5'(" end=")" contains=ALL
 " syn region pgsqlFunction		start="utf8_to_euc_cn'(" end=")" contains=ALL
