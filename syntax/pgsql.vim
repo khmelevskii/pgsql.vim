@@ -74,6 +74,7 @@ syn sync ccomment pgsqlComment
 
 " Column types
 
+syn keyword pgsqlType		 dm_pk
 syn keyword pgsqlType		 dm_ref dm_ref_nn
 syn keyword pgsqlType		 dm_bool dm_bool_true dm_bool_false
 syn keyword pgsqlType		 dm_date dm_date_nn dm_date_now dm_date_now_nn
@@ -96,7 +97,12 @@ syn keyword pgsqlType		 dm_int_range dm_int_range_nn
 syn keyword pgsqlType		 dm_float_range dm_float_range_nn
 syn keyword pgsqlType		 dm_date_range dm_date_range_nn
 syn keyword pgsqlType		 dm_datetime_range dm_datetime_range_nn
-syn keyword pgsqlType		 dm_interval dm_interval_nn
+syn keyword pgsqlType		 dm_interval_year dm_interval_year_nn
+syn keyword pgsqlType		 dm_interval_month dm_interval_month_nn
+syn keyword pgsqlType		 dm_interval_day dm_interval_day_nn
+syn keyword pgsqlType		 dm_interval_hour dm_interval_hour_nn
+syn keyword pgsqlType		 dm_interval_minute dm_interval_minute_nn
+syn keyword pgsqlType		 dm_interval_second dm_interval_second_nn
 syn keyword pgsqlType		 dm_tel dm_tel_nn
 syn keyword pgsqlType		 dm_url dm_url_nn
 syn keyword pgsqlType		 dm_enum dm_enum_nn
