@@ -74,7 +74,6 @@ syn sync ccomment pgsqlComment
 
 " Column types
 
-syn keyword pgsqlType		 dm_pk
 syn keyword pgsqlType		 dm_ref dm_ref_nn
 syn keyword pgsqlType		 dm_bool dm_bool_true dm_bool_false
 syn keyword pgsqlType		 dm_date dm_date_nn dm_date_now dm_date_now_nn
@@ -105,14 +104,16 @@ syn keyword pgsqlType		 dm_interval_minute dm_interval_minute_nn
 syn keyword pgsqlType		 dm_interval_second dm_interval_second_nn
 syn keyword pgsqlType		 dm_tel dm_tel_nn
 syn keyword pgsqlType		 dm_url dm_url_nn
+syn keyword pgsqlType		 dm_microenum dm_microenum_nn
+syn keyword pgsqlType		 dm_smallenum dm_smallenum_nn
 syn keyword pgsqlType		 dm_enum dm_enum_nn
 syn keyword pgsqlType		 dm_file dm_file_nn dm_image dm_image_nn
 syn keyword pgsqlType		 dm_gps dm_gps_nn
 syn keyword pgsqlType		 dm_typeahead dm_typeahead_nn
 syn keyword pgsqlType		 dm_typeahead_list dm_typeahead_list_nn
-syn keyword pgsqlType		 dm_languages dm_order
+syn keyword pgsqlType		 dm_languages§
 
-syn keyword pgsqlType		 anyarray anyelement abstime anyenum
+syn keyword pgsqlType		 serial anyarray anyelement abstime anyenum
 syn keyword pgsqlType		 anynonarray any aclitem bytea bit
 syn keyword pgsqlType		 boolean bigint box cidr cstring char
 syn keyword pgsqlType		 character cid circle double date enum
@@ -126,7 +127,7 @@ syn keyword pgsqlType		 record regproc regdictionary regoper
 syn keyword pgsqlType		 regprocedure regconfig smgr smallint
 syn keyword pgsqlType		 time tsquery tinterval trigger tid
 syn keyword pgsqlType		 timestamp timestamptz text tsvector txid_snapshot
-syn keyword pgsqlType		 unknown uuid void varying with without
+syn keyword pgsqlType		 unknown uuid void varying varchar with without
 syn keyword pgsqlType		 xml xid zone
 
 " syn region pgsqlType		 start="float\W" end="."me=s-1
