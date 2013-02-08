@@ -77,7 +77,7 @@ syn sync ccomment pgsqlComment
 syn keyword pgsqlType		 dm_ref dm_ref_nn
 syn keyword pgsqlType		 dm_bool dm_bool_true dm_bool_false
 syn keyword pgsqlType		 dm_date dm_date_nn dm_date_now dm_date_now_nn
-syn keyword pgsqlType		 dm_time dn_time_nn dm_time_now dm_time_now_nn
+syn keyword pgsqlType		 dm_time dm_time_nn dm_time_now dm_time_now_nn
 syn keyword pgsqlType		 dm_datetime dm_datetime_nn dm_datetime_now
 syn keyword pgsqlType		 dm_datetime_now_nn
 syn keyword pgsqlType		 dm_text_micro dm_text_micro_nn
