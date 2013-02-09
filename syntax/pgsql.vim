@@ -111,7 +111,7 @@ syn keyword pgsqlType		 dm_file dm_file_nn dm_image dm_image_nn
 syn keyword pgsqlType		 dm_gps dm_gps_nn
 syn keyword pgsqlType		 dm_typeahead dm_typeahead_nn
 syn keyword pgsqlType		 dm_typeahead_list dm_typeahead_list_nn
-syn keyword pgsqlType		 dm_languages§
+syn keyword pgsqlType		 dm_languages
 
 syn keyword pgsqlType		 serial anyarray anyelement abstime anyenum
 syn keyword pgsqlType		 anynonarray any aclitem bytea bit
